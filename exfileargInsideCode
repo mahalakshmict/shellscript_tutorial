@@ -1,0 +1,10 @@
+#!/bin/sh
+#--passing input parameter from file and reading it as array
+input=($(cat user.txt))
+# displays array content
+echo "${input[*]}"
+# actual program start
+echo "hello, ${input[0]}"
+echo "${input[0]} says, she is ${input[1]}"
+#----to see answer exec
+#./exfileargInsideCode
