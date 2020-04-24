@@ -1,0 +1,44 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <urn:QueryChangeApprovalServiceResponse xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+         <urn:ListWOQuery>
+            <urn:getListValues>
+               <urn:WorkInfoInstanceID>AGHAA5V0GIT53AQJIV2KD1Z9G22HP6</urn:WorkInfoInstanceID>
+               <urn:WorkInfoStatus>Enabled</urn:WorkInfoStatus>
+               <urn:WorkInfoType>General Information</urn:WorkInfoType>
+               <urn:WorkInfoCommSource/>
+               <urn:WorkInfoSummary>Test summary</urn:WorkInfoSummary>
+               <urn:WorkInfoNotes>Test notes2</urn:WorkInfoNotes>
+               <urn:ParentID>CRQ000001227009</urn:ParentID>
+               <urn:WorkInfoSecureLog>Yes</urn:WorkInfoSecureLog>
+               <urn:WorkInfoSubmitDate>2020-04-23T16:09:56+02:00</urn:WorkInfoSubmitDate>
+               <urn:Work_Log_Submitter>fusion_user_corp</urn:Work_Log_Submitter>
+            </urn:getListValues>
+            <urn:getListValues>
+               <urn:WorkInfoInstanceID>AGHAA5V0GIT53AQJIUS5D1KAJL2GWI</urn:WorkInfoInstanceID>
+               <urn:WorkInfoStatus>Enabled</urn:WorkInfoStatus>
+               <urn:WorkInfoType>General Information</urn:WorkInfoType>
+               <urn:WorkInfoCommSource/>
+               <urn:WorkInfoSummary>Process Flow: USMS - Standard Process (Generic)</urn:WorkInfoSummary>
+               <urn:WorkInfoNotes>Status Transition: Draft > Request For Authorization > Scheduled For Approval > Scheduled > Implementation In Progress > Completed > Closed</urn:WorkInfoNotes>
+               <urn:ParentID>CRQ000001227009</urn:ParentID>
+               <urn:WorkInfoSecureLog>Yes</urn:WorkInfoSecureLog>
+               <urn:WorkInfoSubmitDate>2020-04-23T15:57:52+02:00</urn:WorkInfoSubmitDate>
+               <urn:Work_Log_Submitter>fusion_user_corp</urn:Work_Log_Submitter>
+            </urn:getListValues>
+            <urn:getListValues>
+               <urn:WorkInfoInstanceID>AGHAA5V0GIT53AQJIUS6D1KAQC2GW7</urn:WorkInfoInstanceID>
+               <urn:WorkInfoStatus>Enabled</urn:WorkInfoStatus>
+               <urn:WorkInfoType>General Information</urn:WorkInfoType>
+               <urn:WorkInfoCommSource/>
+               <urn:WorkInfoSummary>Test summary</urn:WorkInfoSummary>
+               <urn:WorkInfoNotes>Test notes10</urn:WorkInfoNotes>
+               <urn:ParentID>CRQ000001227009</urn:ParentID>
+               <urn:WorkInfoSecureLog>Yes</urn:WorkInfoSecureLog>
+               <urn:WorkInfoSubmitDate>2020-04-23T15:57:52+02:00</urn:WorkInfoSubmitDate>
+               <urn:Work_Log_Submitter>fusion_user_corp</urn:Work_Log_Submitter>
+            </urn:getListValues>
+         </urn:ListWOQuery>
+      </urn:QueryChangeApprovalServiceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

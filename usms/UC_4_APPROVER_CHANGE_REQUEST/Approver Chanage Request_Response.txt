@@ -1,0 +1,9 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <urn:WebServiceApprovalServiceResponse xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+         <urn:Assurance>
+            <urn:Request_ID__c>000000000036513</urn:Request_ID__c>
+         </urn:Assurance>
+      </urn:WebServiceApprovalServiceResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

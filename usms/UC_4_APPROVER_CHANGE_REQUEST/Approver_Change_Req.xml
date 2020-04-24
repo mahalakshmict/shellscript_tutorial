@@ -1,0 +1,29 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:WebServiceApprovalServiceRequest>
+         <urn:Assurance>
+            <!--Optional:-->
+            <urn:Change_ID>{Change_ID}</urn:Change_ID>
+            <!--Optional:-->
+            
+            <!--Optional:-->
+            <urn:Destination_Ticket_ID>{Destination_Ticket_ID}</urn:Destination_Ticket_ID>
+            <!--Optional:-->
+            <urn:Source_Ticket_ID>{Source_Ticket_ID}</urn:Source_Ticket_ID>
+            <!--Optional:-->
+            <urn:Action>{Action}</urn:Action>
+            <!--Optional:-->
+            <urn:ApproverLoginID>{ApproverLoginID}</urn:ApproverLoginID>
+            <!--Optional:-->
+            <urn:PhaseName>{PhaseName}</urn:PhaseName>
+            <!--Optional:-->
+            
+            <!--Optional:-->
+           
+            <!--Optional:-->
+            <urn:ApprovalStatus>Approved</urn:ApprovalStatus>
+         </urn:Assurance>
+      </urn:WebServiceApprovalServiceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

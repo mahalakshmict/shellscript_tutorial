@@ -1,0 +1,70 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:ChangeManagementServiceRequest>
+         <urn:Assurance>
+            <!--Optional:-->
+            <urn:AssociatedForeignTicketDataList>
+               <!--Zero or more repetitions:-->
+               <urn:AssociatedForeignTicketData>
+                  <urn:Action>createTicket</urn:Action>
+                  <!--Optional:-->
+                
+                 
+                  <urn:ForeignTicketDescription>Test Ticket</urn:ForeignTicketDescription>
+                  <urn:ForeignTicketID>Observer020</urn:ForeignTicketID>
+                  
+               </urn:AssociatedForeignTicketData>
+            </urn:AssociatedForeignTicketDataList>
+            <!--Optional:-->
+            <urn:ChangeTicket>
+               <!--Optional:-->
+               <urn:TicketInfo>
+                 
+                  <urn:CategorizationTier1>Adjustment</urn:CategorizationTier1>
+                  <!--Optional:-->
+                  <urn:CategorizationTier2>Access</urn:CategorizationTier2>
+                  <!--Optional:-->
+                  
+                 
+                  <urn:Impact>4-Minor/Localized</urn:Impact>
+                  <!--Optional:-->
+                 
+                  <urn:Notes>Test ticket obser</urn:Notes>
+                  <!--Optional:-->
+                
+                 
+                  <!--Optional:-->
+                  
+                  <urn:Summary>Test Observer ticket</urn:Summary>
+                  <!--Optional:-->
+                  <urn:Urgency>4-Low</urn:Urgency>
+                  <!--Zero or more repetitions:-->
+                 
+                  <!--Optional:-->
+                  
+                  <urn:ImpactedCustomers>
+                     <!--Zero or more repetitions:-->
+                     <urn:Value type="String">3</urn:Value>
+                  </urn:ImpactedCustomers>
+                
+               </urn:TicketInfo>
+               <!--Optional:-->
+               <urn:ChangeInfo>
+                 
+                  <urn:Class>Standard</urn:Class>
+                 
+                  <urn:ScheduledEndDate>2020-04-24T14:00:00</urn:ScheduledEndDate>
+                  <!--Optional:-->
+                  <urn:ScheduledStartDate>2020-04-20T14:00:00</urn:ScheduledStartDate>
+                 
+                  <urn:TemplateInstanceID>IDHAA5V0GJ5ECANX3QG0AROJX01L3K</urn:TemplateInstanceID>
+                 
+               </urn:ChangeInfo>
+            </urn:ChangeTicket>
+            <!--Optional:-->
+            
+         </urn:Assurance>
+      </urn:ChangeManagementServiceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

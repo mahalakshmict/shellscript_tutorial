@@ -1,0 +1,6 @@
+{Action} updateTicket  
+{USMSTicketID} CRQ000001227018
+{TicketNumber} CRQ000001227018
+{WorkInfoNotes} Test_Notes_2
+{WorkInfoSummary} Test_summary
+{WorkInfoType} General_info

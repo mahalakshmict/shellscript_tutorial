@@ -1,0 +1,3 @@
+{Qualification} '1000000182' = "CRQ000001227017"
+{startRecord} 0
+{maxLimit} 10

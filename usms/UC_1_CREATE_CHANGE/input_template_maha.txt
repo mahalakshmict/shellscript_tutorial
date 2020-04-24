@@ -1,0 +1,14 @@
+{Action} createTicket 
+{observer_ticket_description} ForeignTicketDescription
+{observer_ticket_id} ForeignTicketID
+{Categorization_Tier_1} Adjustment  
+{Categorization_Tier_2} Access  
+{Impact} 4-Minor,Localized  
+{Notes} test_ticket_observer
+{Summary} Test_Observer_ticket
+{Urgency} 4-Low  
+{ImpactedCustomers} 3  
+{Class} Standard  
+{ticket_schedule_end_date} 1
+{ticket_scheudled_start_date} 2
+{TemplateInstanceID} IDHAA5V0GJ5ECANX3QG0AROJX01L3K

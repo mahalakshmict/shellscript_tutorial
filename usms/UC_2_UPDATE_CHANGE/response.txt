@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><urn:ChangeManagementServiceResponse xmlns:urn
+="urn:ticketManagementInterface_WS_LGI"><urn:Assurance><urn:AssociatedForeignTicketDataList><urn:AssociatedForeignTicketData><urn:Foreig
+nSystemID>Observer</urn:ForeignSystemID><urn:ReturnCode>0</urn:ReturnCode><urn:InfrastructureChangeID>CRQ000000313773|CRQ000000313773</u
+rn:InfrastructureChangeID></urn:AssociatedForeignTicketData></urn:AssociatedForeignTicketDataList></urn:Assurance></urn:ChangeManagement
+ServiceResponse></soapenv:Body></soapenv:Envelope>
