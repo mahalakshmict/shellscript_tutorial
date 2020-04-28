@@ -7,12 +7,12 @@
             <urn:AssociatedForeignTicketDataList>
                <!--Zero or more repetitions:-->
                <urn:AssociatedForeignTicketData>
-                  <urn:Action>createTicket</urn:Action><!--createTicket-->
+                  <urn:Action>{Action}</urn:Action><!--createTicket-->
                   <!--Optional:-->
                 
                  
-                  <urn:ForeignTicketDescription>Test_Ticket</urn:ForeignTicketDescription>
-                  <urn:ForeignTicketID>Observer022</urn:ForeignTicketID>
+                  <urn:ForeignTicketDescription>{observer_ticket_description}</urn:ForeignTicketDescription>
+                  <urn:ForeignTicketID>{observer_ticket_id}</urn:ForeignTicketID>
                   
                </urn:AssociatedForeignTicketData>
             </urn:AssociatedForeignTicketDataList>
@@ -21,44 +21,44 @@
                <!--Optional:-->
                <urn:TicketInfo>
                  
-                  <urn:CategorizationTier1>Adjustment</urn:CategorizationTier1><!--Adjustment-->
+                  <urn:CategorizationTier1>{Categorization_Tier_1}</urn:CategorizationTier1><!--Adjustment-->
                   <!--Optional:-->
-                  <urn:CategorizationTier2>Access</urn:CategorizationTier2><!--Access-->
+                  <urn:CategorizationTier2>{Categorization_Tier_2}</urn:CategorizationTier2><!--Access-->
                   <!--Optional:-->
                   
                  
-                  <urn:Impact>3-Moderate/Limited</urn:Impact><!--4-Minor/Localized-->
+                  <urn:Impact>{Impact}</urn:Impact><!--4-Minor/Localized-->
                   <!--Optional:-->
                  
-                  <urn:Notes>test_ticket_observer</urn:Notes><!--test ticket observer-->
+                  <urn:Notes>{Notes}</urn:Notes><!--test ticket observer-->
                   <!--Optional:-->
                 
                  
                   <!--Optional:-->
                   
-                  <urn:Summary>Test_Observer_ticket</urn:Summary><!--Test Observer ticket-->
+                  <urn:Summary>{Summary}</urn:Summary><!--Test Observer ticket-->
                   <!--Optional:-->
-                  <urn:Urgency>3-Medium</urn:Urgency><!--4-Low-->
+                  <urn:Urgency>{Urgency}</urn:Urgency><!--4-Low-->
                   <!--Zero or more repetitions:-->
                  
                   <!--Optional:-->
                   
                   <urn:ImpactedCustomers>
                      <!--Zero or more repetitions:-->
-                     <urn:Value type="String">3</urn:Value><!--3-->
+                     <urn:Value type="String">{ImpactedCustomers}</urn:Value><!--3-->
                   </urn:ImpactedCustomers>
                 
                </urn:TicketInfo>
                <!--Optional:-->
                <urn:ChangeInfo>
                  
-                  <urn:Class>Standard</urn:Class><!--Standard-->
+                  <urn:Class>{Class}</urn:Class><!--Standard-->
                  
-                  <urn:ScheduledEndDate>2020-04-28T15:00:00</urn:ScheduledEndDate>
+                  <urn:ScheduledEndDate>{ticket_schedule_end_date}</urn:ScheduledEndDate>
                   <!--Optional:-->
-                  <urn:ScheduledStartDate>2020-04-24T15:00:00</urn:ScheduledStartDate>
+                  <urn:ScheduledStartDate>{ticket_scheudled_start_date}</urn:ScheduledStartDate>
                  
-                  <urn:TemplateInstanceID>IDHAA5V0GJ5ECANX3QG0AROJX01L3K</urn:TemplateInstanceID><!--IDHAA5V0GJ5ECANX3QG0AROJX01L3K-->
+                  <urn:TemplateInstanceID>{TemplateInstanceID}</urn:TemplateInstanceID><!--IDHAA5V0GJ5ECANX3QG0AROJX01L3K-->
                  
                </urn:ChangeInfo>
             </urn:ChangeTicket>
@@ -68,4 +68,5 @@
       </urn:ChangeManagementServiceRequest>
    </soapenv:Body>
 </soapenv:Envelope>
+
 

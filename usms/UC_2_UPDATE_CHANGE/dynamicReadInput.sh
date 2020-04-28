@@ -6,18 +6,17 @@ j=0 #odd iteration
 k=1 #even iteration
 l=${#input[@]}
 a=`expr $l / 2`
-echo $l $a
+#echo $l $a
 while [ $i -le $a ]
 do 
-  echo ${input[$j]},${input[$k]}
-  sed -i "s/${input[$j]}/${input[$k]}/g" create_test_maha.xml
+  #echo ${input[$j]},${input[$k]}
+  sed -i "s/${input[$j]}/${input[$k]}/g" Updatelog.xml
   j=`expr $j + 2`
   k=`expr $k + 2`
-  echo ${input[$i]} 
+  #echo ${input[$i]} 
   #echo $'\n'
   i=`expr $i + 1`
 done 
 #echo ${input[*]}
 #echo "length is ${#input[@]}"
-
-
+rm -rf sed*
