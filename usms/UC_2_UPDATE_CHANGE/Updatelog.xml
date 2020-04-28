@@ -7,11 +7,11 @@
             <urn:AssociatedForeignTicketDataList>
                <!--Zero or more repetitions:-->
                <urn:AssociatedForeignTicketData>
-                  <urn:Action>updateTicket</urn:Action>
+                  <urn:Action>{Action}</urn:Action>
                   <!--Optional:-->
                 
                  
-                    <urn:USMSTicketID>CRQ000001227024</urn:USMSTicketID>
+                    <urn:USMSTicketID>{USMSTicketID}</urn:USMSTicketID>
 
                </urn:AssociatedForeignTicketData>
             </urn:AssociatedForeignTicketDataList>
@@ -20,15 +20,15 @@
                <!--Optional:-->
                <urn:TicketInfo>
                  
-                   <urn:TicketNumber>CRQ000001227024</urn:TicketNumber>
+                   <urn:TicketNumber>{TicketNumber}</urn:TicketNumber>
 
                 
                   <urn:WorkInfo>
                     
-                     <urn:WorkInfoNotes>Test_Notes_24</urn:WorkInfoNotes>
+                     <urn:WorkInfoNotes>{WorkInfoNotes}</urn:WorkInfoNotes>
                      <!--Optional:-->
                     
-                     <urn:WorkInfoSummary>Test_summary_24</urn:WorkInfoSummary>
+                     <urn:WorkInfoSummary>{WorkInfoSummary}</urn:WorkInfoSummary>
                      <!--Optional:-->
                      <urn:WorkInfoType>General Information</urn:WorkInfoType>
                    
