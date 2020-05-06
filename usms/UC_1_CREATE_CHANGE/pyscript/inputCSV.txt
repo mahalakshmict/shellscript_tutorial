@@ -1,0 +1,14 @@
+{Action},createTicket
+{observer_ticket_description},Test_Ticket
+{observer_ticket_id},Observer11
+{Categorization_Tier_1},Adjustment
+{Categorization_Tier_2},Access
+{Impact},3-Moderate/Limited
+{Notes},test_ticket_observer
+{Summary},Test_Observer_ticket
+{Urgency},3-Medium
+{ImpactedCustomers},7
+{Class},Standard
+{ticket_schedule_end_date},2020-05-12T15:00:00
+{ticket_scheudled_start_date},2020-05-06T15:00:00
+{TemplateInstanceID},IDHAA5V0GJ5ECANX3QG0AROJX01L3K

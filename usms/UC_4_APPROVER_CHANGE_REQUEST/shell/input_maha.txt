@@ -1,0 +1,7 @@
+{Change_ID} CRQ000001227024
+{Destination_Ticket_ID} CRQ000001227024
+{Source_Ticket_ID} Observer025
+{Action} approverChange
+{ApproverLoginID} UPCIT\acasocolon
+{PhaseName} Change_Level_CI-IA-Business
+{ApprovalStatus} Rejected

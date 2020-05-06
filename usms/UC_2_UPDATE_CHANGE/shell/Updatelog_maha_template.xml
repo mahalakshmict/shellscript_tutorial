@@ -1,0 +1,52 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:ChangeManagementServiceRequest>
+         <urn:Assurance>
+            <!--Optional:-->
+            <urn:AssociatedForeignTicketDataList>
+               <!--Zero or more repetitions:-->
+               <urn:AssociatedForeignTicketData>
+                  <urn:Action>{Action}</urn:Action>
+                  <!--Optional:-->
+                
+                 
+                    <urn:USMSTicketID>{USMSTicketID}</urn:USMSTicketID>
+
+               </urn:AssociatedForeignTicketData>
+            </urn:AssociatedForeignTicketDataList>
+            <!--Optional:-->
+            <urn:ChangeTicket>
+               <!--Optional:-->
+               <urn:TicketInfo>
+                 
+                   <urn:TicketNumber>{TicketNumber}</urn:TicketNumber>
+
+                
+                  <urn:WorkInfo>
+                    
+                     <urn:WorkInfoNotes>{WorkInfoNotes}</urn:WorkInfoNotes>
+                     <!--Optional:-->
+                    
+                     <urn:WorkInfoSummary>{WorkInfoSummary}</urn:WorkInfoSummary>
+                     <!--Optional:-->
+                     <urn:WorkInfoType>{WorkInfoType}</urn:WorkInfoType>
+                   
+                  </urn:WorkInfo>
+                  <!--Optional:-->
+                  
+                  
+                
+               </urn:TicketInfo>
+               <!--Optional:-->
+               <urn:ChangeInfo>
+                 
+                   
+               </urn:ChangeInfo>
+            </urn:ChangeTicket>
+            <!--Optional:-->
+            
+         </urn:Assurance>
+      </urn:ChangeManagementServiceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

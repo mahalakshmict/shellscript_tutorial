@@ -1,0 +1,72 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:ChangeManagementServiceRequest>
+         <urn:Assurance>
+            <!--Optional:-->
+            <urn:AssociatedForeignTicketDataList>
+               <!--Zero or more repetitions:-->
+               <urn:AssociatedForeignTicketData>
+                  <urn:Action>createTicket</urn:Action><!--createTicket-->
+                  <!--Optional:-->
+                
+                 
+                  <urn:ForeignTicketDescription>Test_Ticket</urn:ForeignTicketDescription>
+                  <urn:ForeignTicketID>Observer11</urn:ForeignTicketID>
+                  
+               </urn:AssociatedForeignTicketData>
+            </urn:AssociatedForeignTicketDataList>
+            <!--Optional:-->
+            <urn:ChangeTicket>
+               <!--Optional:-->
+               <urn:TicketInfo>
+                 
+                  <urn:CategorizationTier1>Adjustment</urn:CategorizationTier1><!--Adjustment-->
+                  <!--Optional:-->
+                  <urn:CategorizationTier2>Access</urn:CategorizationTier2><!--Access-->
+                  <!--Optional:-->
+                  
+                 
+                  <urn:Impact>3-Moderate/Limited</urn:Impact><!--4-Minor/Localized-->
+                  <!--Optional:-->
+                 
+                  <urn:Notes>test_ticket_observer</urn:Notes><!--test ticket observer-->
+                  <!--Optional:-->
+                
+                 
+                  <!--Optional:-->
+                  
+                  <urn:Summary>Test_Observer_ticket</urn:Summary><!--Test Observer ticket-->
+                  <!--Optional:-->
+                  <urn:Urgency>3-Medium</urn:Urgency><!--4-Low-->
+                  <!--Zero or more repetitions:-->
+                 
+                  <!--Optional:-->
+                  
+                  <urn:ImpactedCustomers>
+                     <!--Zero or more repetitions:-->
+                     <urn:Value type="String">7</urn:Value><!--3-->
+                  </urn:ImpactedCustomers>
+                
+               </urn:TicketInfo>
+               <!--Optional:-->
+               <urn:ChangeInfo>
+                 
+                  <urn:Class>Standard</urn:Class><!--Standard-->
+                 
+                  <urn:ScheduledEndDate>2020-05-12T15:00:00</urn:ScheduledEndDate>
+                  <!--Optional:-->
+                  <urn:ScheduledStartDate>2020-05-06T15:00:00</urn:ScheduledStartDate>
+                 
+                  <urn:TemplateInstanceID>IDHAA5V0GJ5ECANX3QG0AROJX01L3K</urn:TemplateInstanceID><!--IDHAA5V0GJ5ECANX3QG0AROJX01L3K-->
+                 
+               </urn:ChangeInfo>
+            </urn:ChangeTicket>
+            <!--Optional:-->
+            
+         </urn:Assurance>
+      </urn:ChangeManagementServiceRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+

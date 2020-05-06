@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:ticketManagementInterface_WS_LGI">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <urn:ApproverGetListOperation>
+         <urn:Assurance>
+            <!--Optional:-->
+            <urn:Qualification>'1000000182'="CRQ000001227024"</urn:Qualification>
+            <!--Optional:-->
+            <urn:startRecord>0</urn:startRecord>
+            <!--Optional:-->
+            <urn:maxLimit>10</urn:maxLimit>
+         </urn:Assurance>
+      </urn:ApproverGetListOperation>
+   </soapenv:Body>
+</soapenv:Envelope>
